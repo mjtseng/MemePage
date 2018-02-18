@@ -51,5 +51,6 @@ li a
 /*when you hover over the link, it changes color to light orange (the hexcode below)*/
 li a:hover
 {
+	font-size: 150%;
 	background-color: #ffb56b;
 }
