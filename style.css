@@ -10,7 +10,7 @@
 body
 {
 	/*background-color: #0066ff;*/
-	background-image: url('background.gif');
+	background-image: url("background.gif");
 	background-size: cover;
 }
 
