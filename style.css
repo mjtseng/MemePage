@@ -27,17 +27,30 @@ h3
 	font-size: 300%;
 }
 
-ul /*style for entire list as a whole*/
+/*EVERYTHING FOR THE NAVBAR*/
+
+/*style for entire list as a whole*/
+ul
 {
 	background-color: #ff9933;
 }
 
-li /*style for the elements of the  list*/
+/*style for the elements of the list*/
+li
 {
 	/*makes all elements in navbar list go in one line instead of separate lines*/
 	display: inline;
 }
 
+/*properties of text in the list*/
+li a
+{
+	color: #42200b;
+	text-align: center;
+	text-decoration: none;
+}
+
+/*when you hover over the link, it changes color to light orange (the hexcode below)*/
 li a:hover
 {
 	background-color: #ffb56b;
