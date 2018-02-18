@@ -18,11 +18,13 @@ h1
 {
 	text-align: center;
 	font-weight: bold;
+	font-size: 300%;
 }
 
 h3
 {
-	text-align: center;
+	text-align: left;
+	font-size: 300%;
 }
 
 ul /*style for entire list as a whole*/
@@ -34,5 +36,9 @@ li /*style for the elements of the  list*/
 {
 	/*makes all elements in navbar list go in one line instead of separate lines*/
 	display: inline;
-	
+}
+
+li a:hover
+{
+	background-color: #ffb56b;
 }
