@@ -6,10 +6,6 @@
 	/* color: green; */ /*we can set any color here using the name or hex code*/
 }
 
-body {
-	/*things*/
-}
-
 h1 {
 	text-align: center;
 	font-weight: bold;
@@ -17,4 +13,13 @@ h1 {
 
 h2 {
 	text-align: center;
+}
+
+body {
+	/*things*/
+}
+
+li {
+	/*makes all elements in navbar list go in one line instead of separate lines*/
+	display: inline;
 }
