@@ -1,29 +1,38 @@
 /* CSS for meme page */
 
-* {
+*
+{
 	/*the asterisk before this section's curly brackets makes it for the whole page*/
 	font-family: Comic Sans MS;
 	/* color: green; */ /*we can set any color here using the name or hex code*/
 }
 
-body 
+body
 {
-	background-color: blue;
+	height: 100%;
+	background: url(https://www.noupe.com/design/bubbly-backgrounds-moving-backgrounds-website.html) no-repeat center center fixed;
+	background-size: cover;
 }
 
-h1 
+h1
 {
 	text-align: center;
 	font-weight: bold;
 }
 
-h2 
+h3
 {
 	text-align: center;
 }
 
-li 
+ul /*style for entire list as a whole*/
+{
+	background-color: #ff9933;
+}
+
+li /*style for the elements of the  list*/
 {
 	/*makes all elements in navbar list go in one line instead of separate lines*/
 	display: inline;
+	
 }
