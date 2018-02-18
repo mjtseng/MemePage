@@ -10,8 +10,7 @@
 body
 {
 	/*background-color: #0066ff;*/
-	background-image: url("background.gif");
-	background-size: cover;
+	background: linear-gradient(to bottom right, #0000ff 0%, #66ff33 100%);
 }
 
 h1
