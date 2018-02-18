@@ -9,7 +9,9 @@
 
 body
 {
-	background-color: #0066ff;
+	/*background-color: #0066ff;*/
+	background-image: url('background.gif');
+	background-size: cover;
 }
 
 h1
